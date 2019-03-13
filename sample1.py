@@ -24,7 +24,7 @@ while True:
 
         if data.tick_last_update > latest_update:
             print('Illumination: {} lx'.format(data.val_light))
-            print('val_pressure {}'.data.val_pressure)
+            print('val_pressure {}'.format(data.val_pressure))
 
         latest_update = data.tick_last_update
 
